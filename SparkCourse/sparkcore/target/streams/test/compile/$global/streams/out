@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/test/scala/Test.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/test/scala/Test.scala:3:20: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass Test extends FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/test/scala/Test.scala:5:3: package test is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m  test("common") {}[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

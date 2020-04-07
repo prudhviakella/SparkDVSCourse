@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a815d7e-d2e7-483c-9292-1690c05e8274" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/finalproject/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a10_Accumulator_Counters.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a11_Reduce.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a12_FoldByKey.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a13_MapPartitions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a14_AggregatebyKey.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a3_AmountWiseDiscount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a4_ItemWiseDiscount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a6_HandleMalformedRecords.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a8_ShuffleBased.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a9_CustomPartition.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/serialization/MalformedRecordException.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/serialization/SalesRecord.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/serialization/SalesRecordParser.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SparkProject_V2/src/main/scala/assignments/a2_ItembasedAnalysis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/modules/untitled1-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-core.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-core.zip" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/spark16/target/" />
+    <ignored path="$PROJECT_DIR$/spark24/target/" />
+    <ignored path="$PROJECT_DIR$/sparkcore/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/target/" />
+    <ignored path="$PROJECT_DIR$/kafkaPro/target/" />
+    <ignored path="$PROJECT_DIR$/finalproject/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a1_WordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>kafka</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spark16/src/main/scala/Main.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/Test.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/WordCount.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/serialization/SalesRecordKryoSerilization.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a3_AmountWiseDiscount.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/serialization/a4_ItemWiseDiscount.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a4_ItemWiseDiscount.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a5_ShuffleBased.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a5_BroadcastBased.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/serialization/a5_HandleMalformedRecords.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a5_HandleMalformedRecords.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a6_ShuffleBased.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/SalesRecordKryoSerilization.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a5_SalesRecordKryoSerilization.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a9_Accumulator_Counters.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a9_CustomPartition.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a11_Reduce.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a12_FoldByKey.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a7_BroadcastBased.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a13_MapPartitions.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a14_AggregatebyKey.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a1_WordCount.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="45" />
+    <option name="width" value="1346" />
+    <option name="height" value="678" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sparkcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkCourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparkcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparkcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparkcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparkcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparkcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparkcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparkcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparkcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="Complex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparkcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="Simple" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586223564617" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sparkcore/src/main/resources" />
+      <recent name="$PROJECT_DIR$/sparkcore/src/main/resources/Datasets/Learning" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.dvs.spark.core.Learning" />
+      <recent name="org.dvs.spark.core.Learning.serialization" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Complex/Practice" />
+      <recent name="$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Complex" />
+      <recent name="$PROJECT_DIR$/finalproject/src/main/resources" />
+      <recent name="$PROJECT_DIR$/kafka/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spark16/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Directory_WordCount">
+    <configuration name="Directory_WordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.dvs.spark.core.Learning.Directory_WordCount" />
+      <module name="sparkcore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dvs.spark.core.Learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="sparkcore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a1_WordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.dvs.spark.core.Learning.a1_WordCount" />
+      <module name="sparkcore" />
+      <option name="PROGRAM_PARAMETERS" value="local $PROJECT_DIR$/sparkcore/src/main/resources/Datasets/data.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dvs.spark.core.Learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.a1_WordCount" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Directory_WordCount" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Directory_WordCount" />
+        <item itemvalue="Application.a1_WordCount" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="SparkCourse" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="kafka [file:/home/cloudera/projects/SparkCourse/]" />
+                <option name="path" value="$PROJECT_DIR$/kafka" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sparkcore [file:/home/cloudera/projects/SparkCourse/]" />
+                <option name="path" value="$PROJECT_DIR$/sparkcore" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="spark16 [file:/home/cloudera/projects/SparkCourse/]" />
+                <option name="path" value="$PROJECT_DIR$/spark16" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="spark24 [file:/home/cloudera/projects/SparkCourse/]" />
+                <option name="path" value="$PROJECT_DIR$/spark24" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="finalproject [file:/home/cloudera/projects/SparkCourse/]" />
+                <option name="path" value="$PROJECT_DIR$/finalproject" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="global [file:/home/cloudera/projects/SparkCourse/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="SparkCourse-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="189927291" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="3771982881" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="3447121226" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../multi_project/sbt-multi-project-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spark-core" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spark-sql" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a815d7e-d2e7-483c-9292-1690c05e8274" name="Default Changelist" comment="" />
+      <created>1586175825212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586175825212</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="36" width="1928" height="866" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973147" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32768363" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32768363" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19915254" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="sbt" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spark16/src/main/scala/Main.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark24/src/main/scala/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/Model.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/test/scala/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/Test.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kafka.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/target/streams/sbt/scalafmt/$global/streams/out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/resources/Datasets/Learning/a1_WordCount.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/serialization/MalformedRecordException.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/serialization/SalesRecordParser.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/serialization/SalesRecord.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/serialization/SalesRecordKryoSerilization.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a3_AmountWiseDiscount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#37#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a4_ItemWiseDiscount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#37#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a6_HandleMalformedRecords.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#37#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a8_ShuffleBased.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="e#37#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a9_CustomPartition.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a11_Reduce.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#37#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a12_FoldByKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#37#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a5_SalesRecordKryoSerilization.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a7_BroadcastBased.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#37#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a14_AggregatebyKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#37#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a13_MapPartitions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a10_Accumulator_Counters.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#37#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark24/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark16/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finalproject/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a1_WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>kafka</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sbt: antlr:antlr:2.7.7:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

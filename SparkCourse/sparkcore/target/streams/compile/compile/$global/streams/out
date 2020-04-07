@@ -1,0 +1,31 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:35:36: [wartremover:Any] Inferred type containing Any[0m
+[0m[[0m[33mwarn[0m] [0m[0m    wordCountRDD.collect().foreach(println)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:29:23: [wartremover:NonUnitStatements] Statements must return Unit[0m
+[0m[[0m[33mwarn[0m] [0m[0m    wordCountRDD.cache()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:7:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def main(args: Array[String]) = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:13:35: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
+[0m[[0m[33mwarn[0m] [0m[0m    println("Default Partitions:" + sc.defaultParallelism)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:17:53: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
+[0m[[0m[33mwarn[0m] [0m[0m    println("text file transformation partitioner:" + inputRDD.partitioner)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:18:33: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
+[0m[[0m[33mwarn[0m] [0m[0m    println("partition length:" + inputRDD.partitions.size)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:20:52: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
+[0m[[0m[33mwarn[0m] [0m[0m    println("text file transformation partitions:" + inputRDD.getNumPartitions)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:23:53: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
+[0m[[0m[33mwarn[0m] [0m[0m    println("First map transformation partitioner:" + wordRDD.partitioner)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:26:54: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
+[0m[[0m[33mwarn[0m] [0m[0m    println("Second map transformation partitioner:" + wordPairRDD.partitioner)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:33:40: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
+[0m[[0m[33mwarn[0m] [0m[0m    println("Reduce by key paritioner" + wordCountRDD.partitioner)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m10 warnings found[0m

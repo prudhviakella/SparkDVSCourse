@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/cloudera/projects/SparkCourse/sparkcore/src/main/resources/log4j.properties,/home/cloudera/projects/SparkCourse/sparkcore/target/scala-2.11/classes/log4j.properties)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/cloudera/projects/SparkCourse/sparkcore/src/main/resources/Datasets,/home/cloudera/projects/SparkCourse/sparkcore/target/scala-2.11/classes/Datasets)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/cloudera/projects/SparkCourse/sparkcore/src/main/resources/Datasets/data.txt,/home/cloudera/projects/SparkCourse/sparkcore/target/scala-2.11/classes/Datasets/data.txt)[0m
