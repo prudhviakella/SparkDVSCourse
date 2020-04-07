@@ -8,7 +8,9 @@ object Reduce {
     val conf = new SparkConf().setAppName("apiexample").setMaster("local[*]")
     val sc = new SparkContext(conf)
 
-    val dataRDD = sc.textFile("/home/cloudera/projects/spark-core/src/main/resources/sales2.csv",1)
+    val dataRDD = sc.textFile(
+      "/home/cloudera/projects/spark-core/src/main/resources/sales2.csv",
+      1)
     val salesRecordRDD = dataRDD.map(row => {
       val parseResult = SalesRecordParser.parse(row)
       parseResult.right.get
@@ -18,13 +20,13 @@ object Reduce {
     //give me salesRecord which has max value
     //val dummySalesRecord = new SalesRecord(null,null,null,Double.MinValue)
 
-    val maxSalesRecord = salesRecordRDD.reduce((acc,salesRecord)=>{
-      println("Acc:"+acc)
-      println("salesRecord:"+salesRecord)
-      if(acc.itemValue < salesRecord.itemValue) salesRecord else acc
+    val maxSalesRecord = salesRecordRDD.reduce((acc, salesRecord) => {
+      println("Acc:" + acc)
+      println("salesRecord:" + salesRecord)
+      if (acc.itemValue < salesRecord.itemValue) salesRecord else acc
     })
 
-    println("max sale record is "+ maxSalesRecord)
+    println("max sale record is " + maxSalesRecord)
   }
 
 }

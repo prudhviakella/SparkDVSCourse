@@ -1,7 +1,7 @@
 package org.dvs.spark.core.Learning.serialization
 
 object SalesRecordParser {
-  def parse(record:String): Either[MalformedRecordException,SalesRecord] = {
+  def parse(record: String): Either[MalformedRecordException, SalesRecord] = {
     val columns = record.split(",")
     if (columns.length == 4) {
       val transactionId: String = columns(0)
@@ -11,8 +11,7 @@ object SalesRecordParser {
       val s = SalesRecord(transactionId, customerId, itemId, itemValue)
       val r = Right(s)
       r
-    }
-    else {
+    } else {
       Left(new MalformedRecordException())
     }
   }

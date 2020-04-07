@@ -20,7 +20,6 @@ class CustomerPartitioner(np: Int) extends Partitioner {
 
 object CustomPartition {
 
-  
   def main(args: Array[String]) {
 
     val conf = new SparkConf().setAppName("custom partitioning example")
@@ -31,7 +30,7 @@ object CustomPartition {
 
     val salesByCustomer = salesData.map(value => {
       val colValues = value.split(",")
-      (colValues(1),colValues(2))
+      (colValues(1), colValues(2))
     })
 
     val groupedData = salesByCustomer.groupByKey(new CustomerPartitioner(2))
@@ -40,21 +39,20 @@ object CustomPartition {
 
     //printing partition specific data
 
-
-    val groupedDataWithPartitionData = groupedData.mapPartitionsWithIndex{
-      case (partitionNo,iterator) => {
-        println("partition NO:"+partitionNo)
-        for(record <- iterator)
+    val groupedDataWithPartitionData = groupedData.mapPartitionsWithIndex {
+      case (partitionNo, iterator) => {
+        println("partition NO:" + partitionNo)
+        for (record <- iterator)
           println(record)
-       List((partitionNo,iterator.toList.length)).iterator
+        List((partitionNo, iterator.toList.length)).iterator
       }
     }
-    val defaultPartRDD = salesByCustomer.groupByKey(4).mapPartitionsWithIndex{
-      case (partitionNo,iterator) => {
-        println("partition NO:"+partitionNo)
-        for(record <- iterator)
+    val defaultPartRDD = salesByCustomer.groupByKey(4).mapPartitionsWithIndex {
+      case (partitionNo, iterator) => {
+        println("partition NO:" + partitionNo)
+        for (record <- iterator)
           println(record)
-        List((partitionNo,iterator.toList.length)).iterator
+        List((partitionNo, iterator.toList.length)).iterator
       }
     }
     println(groupedDataWithPartitionData.collect().toList)

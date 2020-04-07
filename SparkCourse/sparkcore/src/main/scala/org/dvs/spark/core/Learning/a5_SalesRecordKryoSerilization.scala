@@ -1,7 +1,10 @@
 package org.dvs.spark.core.Learning
 
 import org.apache.spark.{SparkConf, SparkContext}
-import org.dvs.spark.core.Learning.serialization.{SalesRecord, SalesRecordParser}
+import org.dvs.spark.core.Learning.serialization.{
+  SalesRecord,
+  SalesRecordParser
+}
 
 object a5_SalesRecordKryoSerilization {
   def main(args: Array[String]) {

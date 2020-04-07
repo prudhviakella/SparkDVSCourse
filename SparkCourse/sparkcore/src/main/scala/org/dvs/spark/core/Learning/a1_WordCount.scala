@@ -3,11 +3,11 @@ package org.dvs.spark.core.Learning
 import org.apache.spark.{SparkConf, SparkContext}
 
 /*
-* Dataset path : /home/cloudera/projects/SparkCourse/sparkcore/src/main/resources/Datasets/Learning/a1_WordCount.txt
-* arg[0] -> Master -> local
-* arg[1] -> Dataset Path
-*
-*/
+ * Dataset path : /home/cloudera/projects/SparkCourse/sparkcore/src/main/resources/Datasets/Learning/a1_WordCount.txt
+ * arg[0] -> Master -> local
+ * arg[1] -> Dataset Path
+ *
+ */
 
 object a1_WordCount {
 

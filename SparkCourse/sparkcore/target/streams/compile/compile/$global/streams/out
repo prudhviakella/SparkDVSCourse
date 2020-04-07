@@ -1,31 +1,46 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:35:36: [wartremover:Any] Inferred type containing Any[0m
-[0m[[0m[33mwarn[0m] [0m[0m    wordCountRDD.collect().foreach(println)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:29:23: [wartremover:NonUnitStatements] Statements must return Unit[0m
-[0m[[0m[33mwarn[0m] [0m[0m    wordCountRDD.cache()[0m
-[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:7:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
-[0m[[0m[33mwarn[0m] [0m[0m  def main(args: Array[String]) = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:87:14: [wartremover:Any] Inferred type containing Any[0m
+[0m[[0m[33mwarn[0m] [0m[0m    .foreach(println)[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:95:15: [wartremover:Equals] == is disabled - use === or equivalent instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        if (x == currentvalue) Removeduplicates(xs, currentvalue, currentlist)[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:18:14: [wartremover:FinalCaseClass] case classes must be final[0m
+[0m[[0m[33mwarn[0m] [0m[0m  case class User(userid: Int,[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:23:14: [wartremover:FinalCaseClass] case classes must be final[0m
+[0m[[0m[33mwarn[0m] [0m[0m  case class Transaction(transactionid: Int,[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:29:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val conf = new SparkConf().setAppName("Assignment1").setMaster("local")[0m
 [0m[[0m[33mwarn[0m] [0m[0m      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:13:35: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
-[0m[[0m[33mwarn[0m] [0m[0m    println("Default Partitions:" + sc.defaultParallelism)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:17:53: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
-[0m[[0m[33mwarn[0m] [0m[0m    println("text file transformation partitioner:" + inputRDD.partitioner)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:18:33: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
-[0m[[0m[33mwarn[0m] [0m[0m    println("partition length:" + inputRDD.partitions.size)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:20:52: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
-[0m[[0m[33mwarn[0m] [0m[0m    println("text file transformation partitions:" + inputRDD.getNumPartitions)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:23:53: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
-[0m[[0m[33mwarn[0m] [0m[0m    println("First map transformation partitioner:" + wordRDD.partitioner)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:26:54: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
-[0m[[0m[33mwarn[0m] [0m[0m    println("Second map transformation partitioner:" + wordPairRDD.partitioner)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Learning/a2_Directory_WordCount.scala:33:40: [wartremover:StringPlusAny] Implicit conversion to string is disabled[0m
-[0m[[0m[33mwarn[0m] [0m[0m    println("Reduce by key paritioner" + wordCountRDD.partitioner)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m10 warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:30:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val context = new SparkContext(conf)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:33:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val UserRDD = context.textFile([0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:37:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val TransactionRDD = context.textFile([0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:42:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val UserObjectRDD = UserRDD.map(line => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:47:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val TransObjectRDD = TransactionRDD.map(line => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:60:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val UserPairRDD = UserObjectRDD.map(user => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:63:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val TranPairRDD = TransObjectRDD.map(tran => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:67:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val CombineRDD = UserPairRDD.join(TranPairRDD, 1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:95:32: [wartremover:Recursion] Unmarked recursion[0m
+[0m[[0m[33mwarn[0m] [0m[0m        if (x == currentvalue) Removeduplicates(xs, currentvalue, currentlist)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/cloudera/projects/SparkCourse/sparkcore/src/main/scala/org/dvs/spark/core/Assignment/Simple/Solutions/Assignment1.scala:96:14: [wartremover:Recursion] Unmarked recursion[0m
+[0m[[0m[33mwarn[0m] [0m[0m        else Removeduplicates(xs, x, x :: currentlist)[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m15 warnings found[0m

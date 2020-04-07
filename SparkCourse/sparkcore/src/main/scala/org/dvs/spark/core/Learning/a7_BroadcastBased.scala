@@ -5,9 +5,7 @@ import org.dvs.spark.core.Learning.serialization.SalesRecordParser
 
 import scala.collection.mutable
 
-
 object BroadcastBased {
-
 
   def creatCustomerMap(customerDataPath: String) = {
 
@@ -16,13 +14,12 @@ object BroadcastBased {
     val lines = scala.io.Source.fromFile(customerDataPath).getLines()
     while (lines.hasNext) {
       val values = lines.next().split(",")
-    //for(line <- lines) {
+      //for(line <- lines) {
       //val values = line.split(",")
       customerMap.put(values(0), values(1))
     }
     customerMap
   }
-
 
   def main(args: Array[String]) {
 
@@ -32,8 +29,12 @@ object BroadcastBased {
     val customerDataPath = args(2)
     //val customerMap = creatCustomerMap(customerDataPath)
 
-    val customerMap = scala.io.Source.fromFile(customerDataPath).getLines()
-      .map(x => x.split(",")).map(x => (x(0),x(1))).toMap
+    val customerMap = scala.io.Source
+      .fromFile(customerDataPath)
+      .getLines()
+      .map(x => x.split(","))
+      .map(x => (x(0), x(1)))
+      .toMap
     //broadcast data
 
     val customerBroadCast = sc.broadcast(customerMap)
@@ -46,8 +47,8 @@ object BroadcastBased {
 //        case None => "Unknonw User"
 //        case Some(custName) => custName
 //      }
-      val customerName = custMap.getOrElse(customerId,"Unknown User")
-      (customerName,salesRecord)
+      val customerName = custMap.getOrElse(customerId, "Unknown User")
+      (customerName, salesRecord)
     })
 
     joinRDD.foreach(println)
