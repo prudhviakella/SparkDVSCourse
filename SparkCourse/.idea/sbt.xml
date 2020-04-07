@@ -11,9 +11,8 @@
             <option value="$PROJECT_DIR$/finalproject" />
             <option value="$PROJECT_DIR$/kafka" />
             <option value="$PROJECT_DIR$/project" />
-            <option value="$PROJECT_DIR$/spark16" />
-            <option value="$PROJECT_DIR$/spark24" />
             <option value="$PROJECT_DIR$/sparkcore" />
+            <option value="$PROJECT_DIR$/sparksql" />
           </set>
         </option>
         <option name="sbtVersion" value="1.2.1" />

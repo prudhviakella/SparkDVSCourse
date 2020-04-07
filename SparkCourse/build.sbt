@@ -9,8 +9,7 @@ lazy val global = project
   .disablePlugins(AssemblyPlugin)
   .aggregate(
     sparkcore,
-    spark16,
-    spark24,
+    sparksql,
     kafka,
     finalproject
   )
@@ -29,17 +28,9 @@ lazy val kafka = project
     libraryDependencies ++= commonDependencies ++ kafkalib
   )
 
-lazy val spark16 = project
+lazy val sparksql = project
   .settings(
-    name := "spark16",
-    settings,
-    assemblySettings,
-    libraryDependencies ++= commonDependencies ++ SparkSql16_dependencies
-  )
-
-lazy val spark24 = project
-  .settings(
-    name := "spark24",
+    name := "sparksql",
     settings,
     assemblySettings,
     libraryDependencies ++= commonDependencies ++ Spark24_dependencies
@@ -83,15 +74,6 @@ lazy val commonDependencies = Seq(
 //Spark-Core Project Dependencies
 lazy val SparkCore_dependencies = Seq(
   dependencies.sparkcore16
-)
-
-//Spark 1.6 Project Dependencies
-lazy val SparkSql16_dependencies = Seq(
-  dependencies.sparkcore16,
-  dependencies.sparksql16,
-  dependencies.sparkhive16,
-  dependencies.sparkcsv16,
-  dependencies.sparkxml16
 )
 
 //Spark 2.4 Project Dependencies

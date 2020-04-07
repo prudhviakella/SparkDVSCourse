@@ -7,9 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkCourse.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkCourse.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SparkCourse-build.iml" filepath="$PROJECT_DIR$/.idea/modules/SparkCourse-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark16.iml" filepath="$PROJECT_DIR$/.idea/modules/spark16.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark24.iml" filepath="$PROJECT_DIR$/.idea/modules/spark24.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkcore.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkcore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparksql.iml" filepath="$PROJECT_DIR$/.idea/modules/sparksql.iml" />
     </modules>
   </component>
 </project>

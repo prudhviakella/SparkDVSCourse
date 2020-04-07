@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <profile name="sbt 1" modules="sparkcourse_7080" />
-    <profile name="sbt 2" modules="FinalProject,SparkCourse,kafka,kafkaPro-kafka,spark16,spark24,sparkcore">
+    <profile name="sbt 2" modules="FinalProject,SparkCourse,kafka,kafkaPro-kafka,spark16,spark24,sparkcore,sparksql">
       <option name="postfixOps" value="true" />
       <option name="implicitConversions" value="true" />
       <option name="higherKinds" value="true" />
